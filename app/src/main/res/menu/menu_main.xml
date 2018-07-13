@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.askjeffreyliu.webrtc.MainActivity">
+    <item
+        android:id="@+id/action_call"
+        android:orderInCategory="100"
+        android:title="@string/button_call"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hangup"
+        android:orderInCategory="100"
+        android:title="@string/button_hangup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_room"
+        android:orderInCategory="100"
+        android:title="@string/button_room"
+        app:showAsAction="never" />
+</menu>
